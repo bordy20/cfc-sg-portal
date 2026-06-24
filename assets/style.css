@@ -120,8 +120,8 @@ img, svg { display: block; max-width: 100%; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
   gap: 1.5rem;
 }
 .logo {
@@ -130,12 +130,12 @@ img, svg { display: block; max-width: 100%; }
   flex-shrink: 0;
 }
 .cfc-logo-full {
-  height: 52px;
+  height: 68px;
   width: auto;
   display: block;
 }
 @media (max-width: 900px) {
-  .cfc-logo-full { height: 42px; }
+  .cfc-logo-full { height: 52px; }
 }
 @media (max-width: 480px) {
   .cfc-logo-full text:first-of-type { font-size: 17px; }

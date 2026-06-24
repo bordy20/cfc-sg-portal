@@ -127,34 +127,19 @@ img, svg { display: block; max-width: 100%; }
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
   flex-shrink: 0;
 }
-.logo-seal {
-  width: 48px;
-  height: 48px;
-  flex-shrink: 0;
+.cfc-logo-full {
+  height: 52px;
+  width: auto;
+  display: block;
 }
-.logo-seal svg {
-  width: 100%;
-  height: 100%;
+@media (max-width: 900px) {
+  .cfc-logo-full { height: 42px; }
 }
-.logo-text {
-  display: flex;
-  flex-direction: column;
-}
-.logo-name {
-  font-family: 'Lora', serif;
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--white);
-  line-height: 1.1;
-}
-.logo-sub {
-  font-size: 0.68rem;
-  color: rgba(255,255,255,0.7);
-  letter-spacing: 0.06em;
-  font-weight: 600;
+@media (max-width: 480px) {
+  .cfc-logo-full text:first-of-type { font-size: 17px; }
+  .cfc-logo-full text:last-of-type { font-size: 10px; letter-spacing: 3px; }
 }
 
 .nav-links {

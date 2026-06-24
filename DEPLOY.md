@@ -22,7 +22,7 @@ You only need two things on your computer:
 ### Step 2. Create the GitHub repository
 
 1. Go to <https://github.com/new>
-2. Repository name: `cfc-sg-site`
+2. Repository name: `cfc-sg-portal`
 3. Description: *Couples for Christ — Singapore website*
 4. Visibility: **Private** *(only people you invite can see it — recommended)*
 5. **Do NOT** check "Add a README", "Add .gitignore", or "Add a license". You already have those in this folder.
@@ -31,26 +31,26 @@ You only need two things on your computer:
 
 ### Step 3. Upload the files
 
-Open Terminal (macOS) or Git Bash (Windows). Navigate to the unzipped `cfc-sg-site` folder:
+Open Terminal (macOS) or Git Bash (Windows). Navigate to the unzipped `cfc-sg-portal` folder:
 
 ```bash
-cd path/to/cfc-sg-site
+cd path/to/cfc-sg-portal
 ```
 
-Then run these commands one by one (replace `YOUR-USERNAME` with your GitHub username):
+Then run these commands one by one (replace `bordy20` with your GitHub username):
 
 ```bash
 git init
 git add .
 git commit -m "Initial site upload"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/cfc-sg-site.git
+git remote add origin https://github.com/bordy20/cfc-sg-portal.git
 git push -u origin main
 ```
 
 Git will ask for your GitHub username and password the first time. For the password, **use a Personal Access Token** instead of your real password — generate one at <https://github.com/settings/tokens> (give it the `repo` scope). Paste it when git asks for the password.
 
-> **Doing this in GitHub Desktop instead?** Click *File → Add Local Repository*, point it at the `cfc-sg-site` folder, then click *Publish repository*. Uncheck "Keep this code private" only if you want it public.
+> **Doing this in GitHub Desktop instead?** Click *File → Add Local Repository*, point it at the `cfc-sg-portal` folder, then click *Publish repository*. Uncheck "Keep this code private" only if you want it public.
 
 ### Step 4. Turn on GitHub Pages (the public website)
 
@@ -60,7 +60,7 @@ Git will ask for your GitHub username and password the first time. For the passw
 4. Under "Branch", pick **main** and the **/(root)** folder. Click **Save**.
 5. Wait 1–2 minutes. Refresh the Pages settings page. You'll see:
 
-   > Your site is live at `https://YOUR-USERNAME.github.io/cfc-sg-site/`
+   > Your site is live at `https://bordy20.github.io/cfc-sg-portal/`
 
 That's the URL to share. Done.
 
@@ -102,7 +102,7 @@ Whenever you (or any teammate) edits a file:
 
 **Local way — for big edits or batch changes:**
 ```bash
-cd cfc-sg-site
+cd cfc-sg-portal
 git pull                              # get latest changes from teammates
 # ... make your edits in any editor ...
 git add .
@@ -120,7 +120,7 @@ If you'd rather use Netlify (or you're on GitHub Free and don't want to make the
 
 1. Sign up free at <https://app.netlify.com/signup>
 2. Click **Add new site** → **Import an existing project** → **GitHub**
-3. Authorize Netlify, pick the `cfc-sg-site` repo
+3. Authorize Netlify, pick the `cfc-sg-portal` repo
 4. Build settings:
    - Build command: *(leave blank)*
    - Publish directory: `.`

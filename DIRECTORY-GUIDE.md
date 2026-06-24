@@ -96,7 +96,7 @@ The whole site is built from a sitemap defined inside `build-site.js`. Edit the 
    ```
 2. Clone the repo locally (you only need to do this once):
    ```bash
-   git clone https://github.com/YOUR-USERNAME/cfc-sg-site.git
+   git clone https://github.com/bordy20/cfc-sg-portal.git
    cd cfc-sg-site
    ```
 
@@ -273,4 +273,4 @@ Or revert the sitemap edit and run again.
 
 ---
 
-**Need help?** Open an Issue on the repo. Tag `@YOUR-USERNAME` (the maintainer) and describe what you're trying to do.
+**Need help?** Open an Issue on the repo. Tag `@bordy20` (the maintainer) and describe what you're trying to do.

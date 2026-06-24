@@ -1,145 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>CFC Singapore — Couples for Christ</title>
-<meta name="description" content="CFC Singapore — Couples for Christ Singapore. CFC Singapore" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="./assets/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFC Singapore — Couples for Christ</title>
+  <meta name="description" content="CFC Singapore — Couples for Christ Singapore. A warm, welcoming community of Catholic families." />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-<header class="topbar" id="topbar">
-  <div class="topbar-inner">
-    <a class="brand" href="./">
-      <div class="brand-mark">CFC</div>
-      <div>
-        <div class="brand-title">Couples for Christ — Singapore</div>
-        <div class="brand-sub">Home</div>
-      </div>
-    </a>
-    <button class="menu-toggle" aria-label="Toggle menu" onclick="document.body.classList.toggle('menu-open')">☰</button>
-  </div>
-</header>
 
-<div class="layout">
-  <aside class="sidebar" id="sidebar"><div class="sidebar-title">CFC-SG <span class="sidebar-title-sub">Living Covenant · v2</span></div><div class="controls"><button class="btn" onclick="toggleAll(true)">Expand all</button><button class="btn" onclick="toggleAll(false)">Collapse all</button></div><a class="leaf top current" href="./">🏠 Overview</a><details class="lvl-1"><summary><a href="home/" class="sum-link top">🏠 Home</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="home/cfc-sg-organizational-structure/">CFC-SG Organizational Structure</a><details><summary><a href="home/national-council-and-regional-heads/" class="sum-link">National Council and Regional Heads</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="home/national-council-and-regional-heads/gol-national-core-team/">GOL (Gift of Life) National Core Team</a><a class="leaf" href="home/national-council-and-regional-heads/pfo-national-core-team/">PFO (Pastoral Formation Office) National Core Team</a><a class="leaf" href="home/national-council-and-regional-heads/gateway-evangelization-national-core-team/">Gateway Evangelization National Core Team</a></div></details><details><summary><a href="home/agt-and-mission-areas/" class="sum-link">AGT and Mission Areas <span class="sg-badge">SG</span></a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="home/agt-and-mission-areas/southeast-asia-missions/">Southeast Asia Missions <span class="sg-badge">SG</span></a><a class="leaf" href="home/agt-and-mission-areas/asia-pacific-missions/">Asia-Pacific Missions <span class="sg-badge">SG</span></a><a class="leaf" href="home/agt-and-mission-areas/global-missions-partnerships/">Global Missions Partnerships <span class="sg-badge">SG</span></a></div></details><details><summary><a href="home/clusters-and-chapters/" class="sum-link">Clusters and Chapters</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="home/clusters-and-chapters/member-statistics/">Member Statistics</a><a class="leaf" href="home/clusters-and-chapters/hold-chapters/">HOLD Chapters</a><a class="leaf" href="home/clusters-and-chapters/composition/">Composition</a></div></details><a class="leaf" href="home/cfc-mission/">CFC Mission</a><a class="leaf" href="home/cfc-vision/">CFC Vision</a><a class="leaf" href="home/cfc-covenant/">CFC Covenant</a><a class="leaf" href="home/church-relations-office/">Church Relations Office</a><details><summary><a href="home/archdiocese-of-singapore/" class="sum-link">Archdiocese of Singapore <span class="sg-badge">SG</span></a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="home/archdiocese-of-singapore/partner-parishes/">Partner Parishes <span class="sg-badge">SG</span></a></div></details><a class="leaf" href="home/vatican-recognition/">Vatican Recognition</a><details><summary><a href="home/annual-activities/" class="sum-link">Annual Activities</a><span class="chev"></span></summary><div class="nest"><details><summary><a href="home/annual-activities/first-fruits/" class="sum-link">First Fruits</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="home/annual-activities/first-fruits/first-fruits-exhortation-outline/">First Fruits Exhortation Outline</a><a class="leaf" href="home/annual-activities/first-fruits/sg-north-first-fruits-offering-options/">SG North First Fruits Offering Options <span class="sg-badge">SG</span></a><a class="leaf" href="home/annual-activities/first-fruits/sg-south-first-fruits-offering-options/">SG South First Fruits Offering Options <span class="sg-badge">SG</span></a></div></details><a class="leaf" href="home/annual-activities/leaders-assembly-and-e-rally/">Leaders Assembly and E-Rally</a></div></details><a class="leaf" href="home/cfc-mission-core-covenant/">CFC Mission Core Covenant</a><a class="leaf" href="home/annual-conferences/">Annual Conferences <span class="sg-badge">SG</span></a></div></details><details class="lvl-1"><summary><a href="holiness/" class="sum-link top">✝ Holiness</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="holiness/praising-god/">Praising God</a><details><summary><a href="holiness/gifts-of-the-holy-spirit/" class="sum-link">Gifts of the Holy Spirit</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="holiness/gifts-of-the-holy-spirit/introduction-to-the-gifts-of-the-holy-spirit/">Introduction to the Gifts of the Holy Spirit</a><a class="leaf" href="holiness/gifts-of-the-holy-spirit/wisdom/">Wisdom</a><a class="leaf" href="holiness/gifts-of-the-holy-spirit/knowledge/">Knowledge</a><a class="leaf" href="holiness/gifts-of-the-holy-spirit/faith/">Faith</a><a class="leaf" href="holiness/gifts-of-the-holy-spirit/healing/">Healing</a><a class="leaf" href="holiness/gifts-of-the-holy-spirit/mighty-deeds/">Mighty Deeds</a><a class="leaf" href="holiness/gifts-of-the-holy-spirit/prophecy/">Prophecy</a><details><summary><a href="holiness/gifts-of-the-holy-spirit/discernment/" class="sum-link">Discernment</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="holiness/gifts-of-the-holy-spirit/discernment/rules-of-spiritual-discernment/">Rules of Spiritual Discernment</a></div></details><a class="leaf" href="holiness/gifts-of-the-holy-spirit/tongues/">Tongues</a></div></details><a class="leaf" href="holiness/fruit-of-the-holy-spirit/">Fruit of the Holy Spirit</a><details><summary><a href="holiness/sacraments/" class="sum-link">Sacraments</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="holiness/sacraments/sacrament-of-reconciliation/">Sacrament of Reconciliation</a><a class="leaf" href="holiness/sacraments/act-of-contrition/">Act of Contrition</a><a class="leaf" href="holiness/sacraments/marriage-convalidation/">Marriage Convalidation</a></div></details><a class="leaf" href="holiness/scripture/">Scripture</a><details><summary><a href="holiness/prayer/" class="sum-link">Prayer</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="holiness/prayer/lectio-divina/">Lectio Divina</a><a class="leaf" href="holiness/prayer/prayer-for-reverence-for-life/">Prayer for Reverence for Life</a><a class="leaf" href="holiness/prayer/prayer-for-vocations/">Prayer for Vocations</a><a class="leaf" href="holiness/prayer/prayer-of-spiritual-communion/">Prayer of Spiritual Communion</a><a class="leaf" href="holiness/prayer/prayer-to-st-michael-the-archangel/">Prayer to St. Michael the Archangel</a><a class="leaf" href="holiness/prayer/prayers-for-the-dead/">Prayers for the Dead</a><a class="leaf" href="holiness/prayer/stewardship-prayer/">Stewardship Prayer</a><a class="leaf" href="holiness/prayer/divine-mercy-chaplet/">Divine Mercy Chaplet</a><a class="leaf" href="holiness/prayer/divine-mercy-novena/">Divine Mercy Novena</a><a class="leaf" href="holiness/prayer/divine-mercy-novena-introduction/">Divine Mercy Novena Introduction</a><a class="leaf" href="holiness/prayer/divine-mercy-sunday/">Divine Mercy Sunday</a></div></details><a class="leaf" href="holiness/mobile-apps/">Mobile Apps</a></div></details><details class="lvl-1"><summary><a href="household-and-home/" class="sum-link top">👪 Household and Home</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="household-and-home/what-is-a-household/">What is a Household</a><a class="leaf" href="household-and-home/dynamics-of-a-household-meeting/">Dynamics of a Household Meeting</a><details><summary><a href="household-and-home/family-household/" class="sum-link">Family Household</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="household-and-home/family-household/family-honoring-night/">Family Honoring Night</a></div></details><a class="leaf" href="household-and-home/bible-sharing/">Bible Sharing</a><details><summary><a href="household-and-home/exhortation/" class="sum-link">Exhortation</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="household-and-home/exhortation/exhortation-samples/">Exhortation Samples</a></div></details><a class="leaf" href="household-and-home/acts-prayer/">ACTS Prayer</a></div></details><details class="lvl-1"><summary><a href="evangelization-and-clp/" class="sum-link top">📖 Evangelization and CLP</a><span class="chev"></span></summary><div class="nest"><details><summary><a href="evangelization-and-clp/christian-life-program/" class="sum-link">Christian Life Program (CLP)</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="evangelization-and-clp/christian-life-program/clp-v2-0/">CLP v2.0</a><a class="leaf" href="evangelization-and-clp/christian-life-program/clp-v2-0-materials/">CLP v2.0 Materials</a><a class="leaf" href="evangelization-and-clp/christian-life-program/how-to-prepare-for-a-clp/">How to Prepare for a CLP</a><a class="leaf" href="evangelization-and-clp/christian-life-program/clp-team/">CLP Team</a><a class="leaf" href="evangelization-and-clp/christian-life-program/online-etiquette/">Online Etiquette</a><a class="leaf" href="evangelization-and-clp/christian-life-program/jericho-walk/">Jericho Walk</a><a class="leaf" href="evangelization-and-clp/christian-life-program/clp-intercessory-prayer/">CLP Intercessory Prayer</a><a class="leaf" href="evangelization-and-clp/christian-life-program/clp-intercessory-prayer-longer/">CLP Intercessory Prayer (Longer)</a><a class="leaf" href="evangelization-and-clp/christian-life-program/clp-module-1-dialogue/">CLP Module 1 Dialogue</a><a class="leaf" href="evangelization-and-clp/christian-life-program/clp-module-2-dialogue/">CLP Module 2 Dialogue</a><a class="leaf" href="evangelization-and-clp/christian-life-program/prayer-to-pray-over-a-brother/">Prayer to Pray Over a Brother</a><a class="leaf" href="evangelization-and-clp/christian-life-program/prayer-to-pray-over-a-sister/">Prayer to Pray Over a Sister</a><a class="leaf" href="evangelization-and-clp/christian-life-program/prayer-over-of-families-talk-8/">Prayer Over of Families (Talk 8)</a><a class="leaf" href="evangelization-and-clp/christian-life-program/cleansing-prayer-after-pray-over/">Cleansing Prayer After Pray Over</a></div></details><a class="leaf" href="evangelization-and-clp/how-to-evangelize/">How to Evangelize</a><a class="leaf" href="evangelization-and-clp/family-is-a-gift/">Family Is a Gift</a></div></details><details class="lvl-1"><summary><a href="ancop/" class="sum-link top">🤝 ANCOP</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="ancop/annual-ancop-events/">Annual ANCOP Events</a><a class="leaf" href="ancop/ancop-sg-run/">ANCOP Singapore Run <span class="sg-badge">SG</span></a><a class="leaf" href="ancop/ancop-walk/">ANCOP Walk</a></div></details><details class="lvl-1"><summary><a href="responsibility/" class="sum-link top">🕊 Responsibility</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="responsibility/1-on-1-dialogue/">1-on-1 Dialogue</a><a class="leaf" href="responsibility/1-on-1-dialogue-guide/">1-on-1 Dialogue Guide</a><a class="leaf" href="responsibility/1-on-1-dialogue-supplement/">1-on-1 Dialogue Supplement</a><a class="leaf" href="responsibility/leaders-responsibilities/">Leaders Responsibilities</a><a class="leaf" href="responsibility/ogd-online-global-data/">OGD (Online Global Data)</a><details><summary><a href="responsibility/servant-leaders/" class="sum-link">Servant Leaders</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="responsibility/servant-leaders/being-a-servant-like-st-paul/">Being a Servant Like St. Paul</a><a class="leaf" href="responsibility/servant-leaders/who-should-be-servant-leaders/">Who Should Be Servant Leaders</a></div></details></div></details><details class="lvl-1"><summary><a href="teachings/" class="sum-link top">🎓 Teachings</a><span class="chev"></span></summary><div class="nest"><details><summary><a href="teachings/cfc-formation-track/" class="sum-link">CFC Formation Track</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="teachings/cfc-formation-track/tongues-workshop/">Tongues Workshop</a></div></details><a class="leaf" href="teachings/household-leaders-training/">Household Leaders Training</a><a class="leaf" href="teachings/unit-leaders-training/">Unit Leaders Training</a><details><summary><a href="teachings/preparing-for-a-talk/" class="sum-link">Preparing for a Talk</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="teachings/preparing-for-a-talk/learning-powerpoint/">Learning PowerPoint</a></div></details><a class="leaf" href="teachings/preparing-for-a-sharing/">Preparing for a Sharing</a></div></details><details class="lvl-1"><summary><a href="tithes/" class="sum-link top">💰 Tithes</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="tithes/tithes-in-the-scriptures/">Tithes in the Scriptures</a><a class="leaf" href="tithes/why-give-tithes/">Why Give Tithes</a><a class="leaf" href="tithes/how-much-should-i-give/">How Much Should I Give <span class="sg-badge">SG</span></a><a class="leaf" href="tithes/where-do-tithes-go/">Where Do Tithes Go <span class="sg-badge">SG</span></a></div></details><details class="lvl-1"><summary><a href="mission-centre/" class="sum-link top">🏢 CFC-SG Mission Centre <span class="sg-badge">SG</span></a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="mission-centre/borrowing-of-items/">Borrowing of Items</a><details><summary><a href="mission-centre/housekeeping-rules/" class="sum-link">Housekeeping Rules</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="mission-centre/housekeeping-rules/reporting-mission-centre-issues/">Reporting Mission Centre Issues</a></div></details><a class="leaf" href="mission-centre/cfc-one-fund/">CFC One Fund</a><details><summary><a href="mission-centre/guidelines-for-events/" class="sum-link">Guidelines for Events</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="mission-centre/guidelines-for-events/initial-considerations-for-events/">Initial Considerations for Events</a><a class="leaf" href="mission-centre/guidelines-for-events/venues-for-events/">Venues for Events <span class="sg-badge">SG</span></a><a class="leaf" href="mission-centre/guidelines-for-events/payment-options-for-events/">Payment Options for Events <span class="sg-badge">SG</span></a></div></details><a class="leaf" href="mission-centre/ordering-cfc-ids/">Ordering CFC IDs</a><a class="leaf" href="mission-centre/reimbursements-for-events/">Reimbursements for Events</a><a class="leaf" href="mission-centre/reimbursement-for-clps/">Reimbursement for CLPs</a><a class="leaf" href="mission-centre/requests-for-clp-kits/">Requests for CLP Kits</a><a class="leaf" href="mission-centre/reservations/">Reservations</a><details><summary><a href="mission-centre/tax-receipts/" class="sum-link">Tax Receipts <span class="sg-badge">SG</span></a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="mission-centre/tax-receipts/missing-or-delayed-tax-receipts/">Missing or Delayed Tax Receipts</a></div></details><details><summary><a href="mission-centre/office-administration/" class="sum-link">Office Administration</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="mission-centre/office-administration/conference-notes/">Conference Notes</a><a class="leaf" href="mission-centre/office-administration/sg-south-reports/">SG South Cluster Reports <span class="sg-badge">SG</span></a></div></details><a class="leaf" href="mission-centre/cfc-sg-ablaze/">CFC-SG Ablaze <span class="sg-badge">SG</span></a><a class="leaf" href="mission-centre/ogd-encoder/">OGD Encoder</a></div></details><details class="lvl-1"><summary><a href="chapter/" class="sum-link top">⛪ Chapter</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="chapter/chapter-organization/">Chapter Organization</a><a class="leaf" href="chapter/service-roles-in-a-chapter/">Service Roles in a Chapter</a><a class="leaf" href="chapter/guidelines-for-business-dealings/">Guidelines for Business Dealings</a><a class="leaf" href="chapter/church-integration/">Church Integration</a><details><summary><a href="chapter/music-ministry/" class="sum-link">Music Ministry</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="chapter/music-ministry/playlists-for-household-meetings/">Playlists for Household Meetings</a><a class="leaf" href="chapter/music-ministry/praise-worship-songs/">Praise &amp; Worship Songs</a><a class="leaf" href="chapter/music-ministry/clp-songs/">CLP Songs</a><a class="leaf" href="chapter/music-ministry/liveloud-songs/">LiveLoud Songs</a><a class="leaf" href="chapter/music-ministry/worship-workshop/">Worship Workshop</a><a class="leaf" href="chapter/music-ministry/glory-songs-fast/">Glory Songs (Fast)</a><a class="leaf" href="chapter/music-ministry/glory-songs-slow/">Glory Songs (Slow)</a><a class="leaf" href="chapter/music-ministry/composers-and-musicians/">Composers and Musicians</a></div></details><details><summary><a href="chapter/family-ministries/" class="sum-link">Family Ministries</a><span class="chev"></span></summary><div class="nest"><details><summary><a href="chapter/family-ministries/kfc/" class="sum-link">KFC (Kids for Christ)</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="chapter/family-ministries/kfc/introduction-to-kfc/">Introduction to KFC</a><a class="leaf" href="chapter/family-ministries/kfc/who-serves-in-kfc/">Who Serves in KFC</a><a class="leaf" href="chapter/family-ministries/kfc/kfc-promises/">KFC Promises</a><a class="leaf" href="chapter/family-ministries/kfc/kfc-songs/">KFC Songs</a><a class="leaf" href="chapter/family-ministries/kfc/global-day-of-service/">Global Day of Service</a></div></details><details><summary><a href="chapter/family-ministries/yfc/" class="sum-link">YFC (Youth for Christ)</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="chapter/family-ministries/yfc/yfc-events/">YFC Events</a><a class="leaf" href="chapter/family-ministries/yfc/yfc-pastoral-formation/">YFC Pastoral Formation</a><a class="leaf" href="chapter/family-ministries/yfc/yfc-youth-camp/">YFC Youth Camp</a></div></details><details><summary><a href="chapter/family-ministries/sfc/" class="sum-link">SFC (Singles for Christ)</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="chapter/family-ministries/sfc/sfc-couple-coordinator/">SFC Couple Coordinator</a><a class="leaf" href="chapter/family-ministries/sfc/sfc-pastoral-formation/">SFC Pastoral Formation</a></div></details><a class="leaf" href="chapter/family-ministries/senior-couples-program/">Senior Couples Program</a></div></details><details><summary><a href="chapter/social-ministries/" class="sum-link">Social Ministries</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="chapter/social-ministries/ablaze/">Ablaze (Singles Ministry)</a><details><summary><a href="chapter/social-ministries/gift-of-life/" class="sum-link">Gift of Life (GOL)</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="chapter/social-ministries/gift-of-life/gol-objectives/">GOL Objectives</a><a class="leaf" href="chapter/social-ministries/gift-of-life/gol-logo/">GOL Logo</a><a class="leaf" href="chapter/social-ministries/gift-of-life/pro-life/">Pro-Life</a><a class="leaf" href="chapter/social-ministries/gift-of-life/40-days-for-life-prayer-vigil/">40 Days for Life Prayer Vigil</a><a class="leaf" href="chapter/social-ministries/gift-of-life/contraception/">Contraception</a><a class="leaf" href="chapter/social-ministries/gift-of-life/wedding-milestone/">Wedding Milestone</a></div></details><a class="leaf" href="chapter/social-ministries/migrants-ministry/">Migrants Ministry <span class="sg-badge">SG</span></a></div></details><a class="leaf" href="chapter/lords-day-celebration/">Lord's Day Celebration</a><a class="leaf" href="chapter/chapter-prayer-assembly/">Chapter Prayer Assembly</a><a class="leaf" href="chapter/chapter-prayer-assembly-themes/">Chapter Prayer Assembly Themes</a><a class="leaf" href="chapter/cfc-id/">CFC ID</a></div></details><details class="lvl-1"><summary><a href="zoom-tutorials/" class="sum-link top">💻 Zoom Tutorials</a><span class="chev"></span></summary><div class="nest"><a class="leaf" href="zoom-tutorials/virtual-background/">Virtual Background</a></div></details></aside>
-  <main class="main">
-    
-    
-  <section class="hero">
-    <div class="hero-blob-1"></div>
-    <div class="hero-blob-2"></div>
-    <div class="hero-inner">
-      <span class="eyebrow fade-on-load" style="--delay:0ms">✦ Couples for Christ · Singapore</span>
-      <h1 class="fade-on-load" style="--delay:150ms">A living covenant — <em>renewed every day</em> in Singapore's families.</h1>
-      <p class="lede fade-on-load" style="--delay:300ms">CFC-SG is the Singapore chapter of Couples for Christ, a Catholic lay community recognised by the Vatican. We form couples, singles, youth, and children to live the Gospel in their homes and serve the Church and the poor.</p>
-      <div class="hero-ctas fade-on-load" style="--delay:450ms">
-        <a class="btn-primary" href="evangelization-and-clp/christian-life-program/">Join a Christian Life Program</a>
-        <a class="btn-ghost" href="home/">About CFC-SG</a>
+  <!-- ===== TOP BAR ===== -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <span>✝ Building God's Kingdom through faithful families</span>
+      <span>Registered Society · Singapore</span>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav-header">
+    <div class="container nav-inner">
+      <div class="logo">
+        <div class="logo-seal">
+          <svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="28" cy="28" r="27" fill="#f5ede0" stroke="#c9a84c" stroke-width="1.5"/>
+            <circle cx="28" cy="28" r="22" fill="none" stroke="#c9a84c" stroke-width="0.5" stroke-dasharray="4 3"/>
+            <rect x="23" y="8" width="10" height="32" rx="3" fill="#8b1a1a"/>
+            <rect x="12" y="18" width="32" height="9" rx="3" fill="#8b1a1a"/>
+            <text x="28" y="52" text-anchor="middle" font-family="serif" font-size="6" fill="#8b1a1a" font-weight="bold" letter-spacing="1">CFC SG</text>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">CFC Singapore</span>
+          <span class="logo-sub">Couples for Christ</span>
+        </div>
+      </div>
+      <nav class="nav-links" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#family">Holy Family</a>
+        <a href="#ministries">Ministries</a>
+        <a href="#events">Events</a>
+        <a href="#community">Community</a>
+        <a href="#contact" class="nav-join">Join a CLP</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-art">
+      <svg class="hero-svg" viewBox="0 0 1440 780" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#3d1a0a"/>
+            <stop offset="45%" stop-color="#5c2a10"/>
+            <stop offset="100%" stop-color="#2a0f05"/>
+          </linearGradient>
+          <radialGradient id="warmGlow" cx="40%" cy="40%" r="55%">
+            <stop offset="0%" stop-color="#c9a84c" stop-opacity="0.2"/>
+            <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+          </radialGradient>
+          <filter id="warmBlur">
+            <feGaussianBlur stdDeviation="20"/>
+          </filter>
+        </defs>
+        <rect width="1440" height="780" fill="url(#heroGrad)"/>
+        <ellipse cx="580" cy="310" rx="400" ry="300" fill="url(#warmGlow)"/>
+        <circle cx="580" cy="280" r="200" fill="#c9a84c" opacity="0.06" filter="url(#warmBlur)"/>
+        <rect x="550" y="80" width="60" height="400" rx="6" fill="#c9a84c" opacity="0.08"/>
+        <rect x="380" y="180" width="400" height="55" rx="6" fill="#c9a84c" opacity="0.07"/>
+        <circle cx="580" cy="280" r="100" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.15"/>
+        <circle cx="580" cy="280" r="130" fill="none" stroke="#c9a84c" stroke-width="0.5" opacity="0.08"/>
+        <ellipse cx="580" cy="280" rx="60" ry="60" fill="#c4956a" opacity="0.2"/>
+        <path d="M450 430 Q580 360 710 430 L740 680 Q580 650 420 680 Z" fill="#8b1a1a" opacity="0.14"/>
+        <circle cx="200" cy="150" r="3" fill="#c9a84c" opacity="0.3"/>
+        <circle cx="1100" cy="200" r="2" fill="#c9a84c" opacity="0.25"/>
+        <circle cx="1200" cy="500" r="4" fill="#c9a84c" opacity="0.2"/>
+        <circle cx="300" cy="600" r="2.5" fill="#c9a84c" opacity="0.2"/>
+        <ellipse cx="950" cy="320" rx="30" ry="30" fill="#c4956a" opacity="0.18"/>
+        <path d="M900 410 Q950 375 1000 410 L1010 560 Q950 545 890 560 Z" fill="#6b3a2a" opacity="0.15"/>
+        <ellipse cx="1060" cy="310" rx="30" ry="30" fill="#c4956a" opacity="0.18"/>
+        <path d="M1010 400 Q1060 362 1110 400 L1120 560 Q1060 543 1000 560 Z" fill="#8b1a1a" opacity="0.14"/>
+        <ellipse cx="1005" cy="390" rx="22" ry="22" fill="#c4956a" opacity="0.22"/>
+        <path d="M972 440 Q1005 420 1038 440 L1048 540 Q1005 528 962 540 Z" fill="#6b3a2a" opacity="0.15"/>
+        <text x="1005" y="590" text-anchor="middle" font-family="serif" font-size="10" fill="#c9a84c" opacity="0.35" font-style="italic">A Family United in Christ</text>
+      </svg>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-cross">✝</span>
+        <span>Catholic · Family · Community · Singapore</span>
+      </div>
+      <h1 class="hero-heading">
+        Where Every<br/>
+        <span class="heading-warm">Family Belongs</span>
+      </h1>
+      <p class="hero-body">CFC Singapore is a warm, welcoming community of Catholic families — journeying together in faith, growing together in love, and serving together in hope.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-warm">Discover Our Community</a>
+        <a href="#events" class="btn-warm-ghost">Upcoming Events</a>
+      </div>
+      <div class="hero-scripture">
+        <span class="hs-line"></span>
+        <em>"Love one another as I have loved you." — John 15:12</em>
+        <span class="hs-line"></span>
       </div>
     </div>
   </section>
-  <section class="section-grid">
-    
-      <a class="section-card fade-on-scroll" href="home/">
-        <div class="card-icon">🏠</div>
-        <h3>Home</h3>
-        <p>The CFC-SG landing hub — covenant, vision, mission, leadership, structure, and annual events.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="holiness/">
-        <div class="card-icon">✝</div>
-        <h3>Holiness</h3>
-        <p>Prayer life, sacraments, gifts and fruits of the Holy Spirit, scripture.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="household-and-home/">
-        <div class="card-icon">👪</div>
-        <h3>Household and Home</h3>
-        <p>Household meetings, family devotion, exhortation, ACTS prayer.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="evangelization-and-clp/">
-        <div class="card-icon">📖</div>
-        <h3>Evangelization and CLP</h3>
-        <p>The Christian Life Program and evangelization resources.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="ancop/">
-        <div class="card-icon">🤝</div>
-        <h3>ANCOP</h3>
-        <p>Answering the Cry of the Poor — CFC's global social development arm.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="responsibility/">
-        <div class="card-icon">🕊</div>
-        <h3>Responsibility</h3>
-        <p>Leaders' responsibilities, pastoral dialogue, servant leadership.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="teachings/">
-        <div class="card-icon">🎓</div>
-        <h3>Teachings</h3>
-        <p>Formation track and leader training.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="tithes/">
-        <div class="card-icon">💰</div>
-        <h3>Tithes</h3>
-        <p>Biblical tithing, SGD guidance, allocation.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="mission-centre/">
-        <div class="card-icon">🏢</div>
-        <h3>CFC-SG Mission Centre <span class="sg-badge">SG</span></h3>
-        <p>Admin hub — event logistics, receipts, office administration for the Singapore mission centre.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="chapter/">
-        <div class="card-icon">⛪</div>
-        <h3>Chapter</h3>
-        <p>Chapter-level organization, ministries, music, family &amp; social ministries.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
-      <a class="section-card fade-on-scroll" href="zoom-tutorials/">
-        <div class="card-icon">💻</div>
-        <h3>Zoom Tutorials</h3>
-        <p>How-to guides for Zoom-based meetings and CLPs.</p>
-        <div class="card-more">Explore →</div>
-      </a>
-    
+
+  <!-- ===== WELCOME STRIP ===== -->
+  <section class="welcome-strip">
+    <div class="container ws-inner">
+      <div class="ws-item"><div class="ws-icon">✝</div><h4>Faith-Centred</h4><p>Rooted in Christ and the Catholic tradition</p></div>
+      <div class="ws-divider"></div>
+      <div class="ws-item"><div class="ws-icon">♥</div><h4>Family-Focused</h4><p>The Holy Family is our model and inspiration</p></div>
+      <div class="ws-divider"></div>
+      <div class="ws-item"><div class="ws-icon">✦</div><h4>Community-Driven</h4><p>No one walks the journey of faith alone</p></div>
+      <div class="ws-divider"></div>
+      <div class="ws-item"><div class="ws-icon">◎</div><h4>Mission-Minded</h4><p>Called to renew the face of the earth</p></div>
+    </div>
   </section>
-  </main>
-</div>
 
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div><strong>CFC Singapore</strong> · Couples for Christ Singapore</div>
-    <div class="footer-small">v2 Living Covenant · Preview site mirroring CFC-GVA structure · Not yet public</div>
-  </div>
-</footer>
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container about-wrap">
+      <div class="about-img-side">
+        <div class="img-card img-card-main">
+          <svg viewBox="0 0 320 420" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="imgBg" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#f5ede0"/>
+                <stop offset="100%" stop-color="#ede0cc"/>
+              </linearGradient>
+              <radialGradient id="imgGlow" cx="50%" cy="38%" r="45%">
+                <stop offset="0%" stop-color="#f5d08a" stop-opacity="0.6"/>
+                <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="320" height="420" fill="url(#imgBg)"/>
+            <ellipse cx="160" cy="165" rx="120" ry="100" fill="url(#imgGlow)"/>
+            <rect x="146" y="40" width="28" height="180" rx="4" fill="#8b1a1a" opacity="0.5"/>
+            <rect x="90" y="90" width="140" height="24" rx="4" fill="#8b1a1a" opacity="0.45"/>
+            <circle cx="160" cy="175" r="58" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.65"/>
+            <circle cx="160" cy="175" r="72" fill="none" stroke="#c9a84c" stroke-width="0.8" opacity="0.3"/>
+            <ellipse cx="160" cy="175" rx="46" ry="46" fill="#c4956a" opacity="0.6"/>
+            <path d="M80 290 Q160 248 240 290 L258 400 Q160 382 62 400 Z" fill="#8b1a1a" opacity="0.35"/>
+            <path d="M150 300 Q160 290 170 300 Q183 315 160 332 Q137 315 150 300 Z" fill="#c9a84c" opacity="0.55"/>
+            <line x1="160" y1="115" x2="160" y2="52" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+            <line x1="120" y1="130" x2="96" y2="84" stroke="#c9a84c" stroke-width="1.5" opacity="0.35"/>
+            <line x1="200" y1="130" x2="224" y2="84" stroke="#c9a84c" stroke-width="1.5" opacity="0.35"/>
+            <line x1="100" y1="175" x2="50" y2="175" stroke="#c9a84c" stroke-width="1.5" opacity="0.25"/>
+            <line x1="220" y1="175" x2="270" y2="175" stroke="#c9a84c" stroke-width="1.5" opacity="0.25"/>
+            <text x="160" y="413" text-anchor="middle" font-family="serif" font-size="11" fill="#8b1a1a" opacity="0.65" font-style="italic">Sacred Heart of Jesus</text>
+          </svg>
+        </div>
+        <div class="img-card img-card-accent">
+          <div class="accent-stat"><span class="a-num">40+</span><span class="a-lbl">Years Serving<br/>Singapore</span></div>
+        </div>
+        <div class="img-card img-card-quote">
+          <span class="iq-cross">✝</span>
+          <p>"Christ — the centre of every CFC family"</p>
+        </div>
+      </div>
+      <div class="about-text-side">
+        <span class="warm-label">Who We Are</span>
+        <h2 class="warm-title">A Community<br/><em>Rooted in Love</em></h2>
+        <p>Couples for Christ (CFC) Singapore is a Catholic lay movement that has been serving families in Singapore for over 40 years. We are a community of couples, singles, youth, and children — each supporting the other on the journey of faith.</p>
+        <p>We believe that the renewal of the Church begins in the home — that when families are transformed by the love of Christ, society is transformed too.</p>
+        <div class="values-list">
+          <div class="val-item">
+            <div class="val-dot"></div>
+            <div><strong>Christ-centred living</strong> — Jesus at the heart of every home</div>
+          </div>
+          <div class="val-item">
+            <div class="val-dot"></div>
+            <div><strong>Authentic community</strong> — families walking together in love</div>
+          </div>
+          <div class="val-item">
+            <div class="val-dot"></div>
+            <div><strong>Servant hearts</strong> — caring for the poor and vulnerable</div>
+          </div>
+        </div>
+        <a href="#ministries" class="btn-warm">Meet Our Ministries</a>
+      </div>
+    </div>
+  </section>
 
-<script>
-  function toggleAll(open) {
-    document.querySelectorAll('#sidebar details').forEach(d => d.open = open);
-  }
-  document.querySelectorAll('.sidebar a').forEach(a => a.addEventListener('click', () => {
-    if (window.innerWidth < 900) document.body.classList.remove('menu-open');
-  }));
-</script>
-<script src="./assets/motion.js" defer></script>
+  <!-- ===== HOLY FAMILY ===== -->
+  <section class="holy-family section" id="family">
+    <div class="hf-bg"></div>
+    <div class="container hf-wrap">
+      <div class="hf-text">
+        <span class="warm-label" style="color:#c9a84c;border-color:rgba(201,168,76,0.25)">Our Model &amp; Patron</span>
+        <h2 class="warm-title" style="color:#fff">The Holy Family<br/><em>of Nazareth</em></h2>
+        <p>Jesus, Mary, and Joseph are the heart of CFC. Their family in Nazareth — simple, faithful, and full of love — is the model every CFC family aspires to. We look to them not as distant figures, but as real people who show us how to love God and one another in the ordinary moments of daily life.</p>
+        <div class="hf-features">
+          <div class="hf-feat">
+            <span class="hf-feat-icon">✝</span>
+            <div><strong>Jesus</strong> — our Lord, Saviour, and brother; the reason we gather</div>
+          </div>
+          <div class="hf-feat">
+            <span class="hf-feat-icon">✿</span>
+            <div><strong>Mary</strong> — our mother and intercessor; model of faithfulness</div>
+          </div>
+          <div class="hf-feat">
+            <span class="hf-feat-icon">◎</span>
+            <div><strong>Joseph</strong> — protector, provider, and faithful servant of God's will</div>
+          </div>
+        </div>
+      </div>
+      <div class="hf-visual">
+        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="hfvBg" cx="50%" cy="40%" r="55%">
+              <stop offset="0%" stop-color="#4a1a08" stop-opacity="1"/>
+              <stop offset="100%" stop-color="#1a0805" stop-opacity="1"/>
+            </radialGradient>
+            <radialGradient id="hfvGlow" cx="50%" cy="35%" r="40%">
+              <stop offset="0%" stop-color="#c9a84c" stop-opacity="0.3"/>
+              <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <rect width="400" height="500" fill="url(#hfvBg)" rx="20"/>
+          <ellipse cx="200" cy="200" rx="160" ry="130" fill="url(#hfvGlow)"/>
+          <rect x="188" y="28" width="24" height="88" rx="3" fill="#c9a84c" opacity="0.5"/>
+          <rect x="154" y="52" width="92" height="20" rx="3" fill="#c9a84c" opacity="0.45"/>
+          <circle cx="120" cy="195" r="52" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.4"/>
+          <circle cx="200" cy="170" r="56" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.55"/>
+          <circle cx="280" cy="195" r="48" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.4"/>
+          <ellipse cx="120" cy="195" rx="42" ry="42" fill="#c4956a" opacity="0.5"/>
+          <path d="M58 308 Q120 268 182 308 L196 470 Q120 452 44 470 Z" fill="#4a1a08" opacity="0.7"/>
+          <ellipse cx="200" cy="170" rx="46" ry="46" fill="#c4956a" opacity="0.55"/>
+          <path d="M134 290 Q200 248 266 290 L280 470 Q200 450 120 470 Z" fill="#8b1a1a" opacity="0.5"/>
+          <ellipse cx="280" cy="195" rx="38" ry="38" fill="#c4956a" opacity="0.5"/>
+          <path d="M222 302 Q280 266 338 302 L352 470 Q280 454 208 470 Z" fill="#4a1a08" opacity="0.65"/>
+          <circle cx="60" cy="100" r="3" fill="#c9a84c" opacity="0.4"/>
+          <circle cx="340" cy="120" r="2" fill="#c9a84c" opacity="0.35"/>
+          <circle cx="200" cy="80" r="2.5" fill="#c9a84c" opacity="0.5"/>
+          <text x="120" y="490" text-anchor="middle" font-family="serif" font-size="13" fill="#c9a84c" opacity="0.7">Joseph</text>
+          <text x="200" y="490" text-anchor="middle" font-family="serif" font-size="13" fill="#c9a84c" opacity="0.8">Jesus</text>
+          <text x="280" y="490" text-anchor="middle" font-family="serif" font-size="13" fill="#c9a84c" opacity="0.7">Mary</text>
+          <text x="200" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#c9a84c" opacity="0.55" font-style="italic">The Holy Family of Nazareth</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MINISTRIES ===== -->
+  <section class="ministries section" id="ministries">
+    <div class="container">
+      <div class="section-center">
+        <span class="warm-label">Serve &amp; Grow</span>
+        <h2 class="warm-title center">A Ministry<br/><em>for Every Season</em></h2>
+        <p class="center-p">Whatever your stage of life, there is a place for you in the CFC family.</p>
+      </div>
+      <div class="min-grid">
+        <div class="min-card">
+          <div class="min-header" style="background:linear-gradient(135deg,#8b1a1a,#5c1010)">
+            <div class="min-icon-big">✝</div>
+            <h3>CFC Couples</h3>
+          </div>
+          <div class="min-body">
+            <p>The heart of CFC — married couples forming one another in faith, love, and service through community life.</p>
+            <a href="evangelization-and-clp/christian-life-program/" class="min-cta">Learn More →</a>
+          </div>
+        </div>
+        <div class="min-card">
+          <div class="min-header" style="background:linear-gradient(135deg,#b8860b,#8b6914)">
+            <div class="min-icon-big">✦</div>
+            <h3>CFC-Youth</h3>
+          </div>
+          <div class="min-body">
+            <p>Young adults 18–40 discovering their God-given identity and mission in a vibrant community of peers.</p>
+            <a href="chapter/family-ministries/yfc/" class="min-cta">Learn More →</a>
+          </div>
+        </div>
+        <div class="min-card">
+          <div class="min-header" style="background:linear-gradient(135deg,#2d6a4f,#1b4332)">
+            <div class="min-icon-big">♥</div>
+            <h3>CFC-Kids</h3>
+          </div>
+          <div class="min-body">
+            <p>Nurturing the faith of children aged 4–12 through joyful community, catechesis, and fellowship.</p>
+            <a href="chapter/family-ministries/kfc/" class="min-cta">Learn More →</a>
+          </div>
+        </div>
+        <div class="min-card">
+          <div class="min-header" style="background:linear-gradient(135deg,#1a4a7a,#0d2a4a)">
+            <div class="min-icon-big">◎</div>
+            <h3>CFC-Singles</h3>
+          </div>
+          <div class="min-body">
+            <p>Single adults living purposeful, holy lives — building deep friendships and discerning their vocation.</p>
+            <a href="chapter/family-ministries/sfc/" class="min-cta">Learn More →</a>
+          </div>
+        </div>
+        <div class="min-card">
+          <div class="min-header" style="background:linear-gradient(135deg,#6a2d6a,#3a1a3a)">
+            <div class="min-icon-big">★</div>
+            <h3>CFC-Seniors</h3>
+          </div>
+          <div class="min-body">
+            <p>Older members sharing a lifetime of wisdom, continuing in prayer and mission, and mentoring the young.</p>
+            <a href="chapter/family-ministries/senior-couples-program/" class="min-cta">Learn More →</a>
+          </div>
+        </div>
+        <div class="min-card">
+          <div class="min-header" style="background:linear-gradient(135deg,#7a4a2a,#4a2a10)">
+            <div class="min-icon-big">✿</div>
+            <h3>Handmaids of the Lord</h3>
+          </div>
+          <div class="min-body">
+            <p>Women consecrated to deeper Marian devotion, service, and intercession within the CFC community.</p>
+            <a href="holiness/" class="min-cta">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section class="events section" id="events">
+    <div class="container">
+      <div class="section-center">
+        <span class="warm-label">Gather Together</span>
+        <h2 class="warm-title center">Upcoming<br/><em>Events</em></h2>
+      </div>
+      <div class="events-cards">
+        <div class="ev-card ev-main">
+          <div class="ev-ribbon">Next Up</div>
+          <div class="ev-top">
+            <div class="ev-cal"><span class="ev-m">JUL</span><span class="ev-d">12</span></div>
+            <div>
+              <h3>Christian Life Program (CLP)</h3>
+              <span class="ev-tag">Couples · 7 Weeks</span>
+            </div>
+          </div>
+          <p>Our flagship formation programme — a 7-week journey for couples seeking a deeper encounter with God and community.</p>
+          <span class="ev-where">📍 Church of St. Anne, Sengkang</span>
+          <a href="evangelization-and-clp/christian-life-program/" class="btn-warm">Register Now</a>
+        </div>
+        <div class="ev-side">
+          <div class="ev-small">
+            <div class="ev-s-date"><span>JUL</span><span>20</span></div>
+            <div class="ev-s-info">
+              <h4>Families in Prayer</h4>
+              <p>Monthly community gathering — worship, prayer, fellowship.</p>
+              <span class="ev-where small">📍 Multiple Venues</span>
+            </div>
+            <a href="chapter/chapter-prayer-assembly/" class="ev-reg">→</a>
+          </div>
+          <div class="ev-small">
+            <div class="ev-s-date"><span>AUG</span><span>9</span></div>
+            <div class="ev-s-info">
+              <h4>CFC Youth FIRE Camp</h4>
+              <p>Weekend retreat encounter for young adults.</p>
+              <span class="ev-where small">📍 Pasir Ris Campsite</span>
+            </div>
+            <a href="chapter/family-ministries/yfc/yfc-youth-camp/" class="ev-reg">→</a>
+          </div>
+          <div class="ev-small">
+            <div class="ev-s-date"><span>SEP</span><span>14</span></div>
+            <div class="ev-s-info">
+              <h4>CFC Family Day 2026</h4>
+              <p>Annual celebration of all CFC families across Singapore.</p>
+              <span class="ev-where small">📍 Indoor Stadium</span>
+            </div>
+            <a href="home/annual-conferences/" class="ev-reg">→</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMMUNITY STORIES ===== -->
+  <section class="community section" id="community">
+    <div class="container">
+      <div class="section-center">
+        <span class="warm-label">Transformed by Community</span>
+        <h2 class="warm-title center">Stories of<br/><em>Grace</em></h2>
+      </div>
+      <div class="stories-wrap">
+        <div class="story-card sc-featured">
+          <div class="sc-quote-mark">"</div>
+          <p class="sc-text">"CFC didn't just change our marriage — it gave us a family. We came into the community feeling isolated. We found friends who pray with us, laugh with us, and walk with us through the hardest seasons. And through it all, we found Christ."</p>
+          <div class="sc-author">
+            <div class="sc-avatar">JP</div>
+            <div>
+              <strong>James &amp; Patricia</strong><br/>
+              <span>CFC Members since 2015 · East Community</span>
+            </div>
+          </div>
+        </div>
+        <div class="stories-col">
+          <div class="story-card">
+            <div class="sc-quote-mark">"</div>
+            <p class="sc-text">"Through the CLP, I encountered Christ personally for the first time. Everything changed — how I father my children, how I love my wife, how I see my purpose."</p>
+            <div class="sc-author">
+              <div class="sc-avatar">MR</div>
+              <div><strong>Miguel &amp; Rosa</strong><br/><span>Area Heads, East</span></div>
+            </div>
+          </div>
+          <div class="story-card">
+            <div class="sc-quote-mark">"</div>
+            <p class="sc-text">"CFC-Singles gave me a mission. I'm no longer just building a career — I'm building the Kingdom of God alongside friends who truly love me."</p>
+            <div class="sc-author">
+              <div class="sc-avatar">SL</div>
+              <div><strong>Sarah Lim</strong><br/><span>CFC-Singles Leader</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,0 L0,0 Z" fill="#f5ede0"/>
+      </svg>
+    </div>
+    <div class="footer-main">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+              <circle cx="28" cy="28" r="27" fill="rgba(255,255,255,0.1)" stroke="#c9a84c" stroke-width="1.5"/>
+              <rect x="23" y="8" width="10" height="32" rx="3" fill="#c9a84c"/>
+              <rect x="12" y="18" width="32" height="9" rx="3" fill="#c9a84c"/>
+            </svg>
+            <div>
+              <span class="footer-name">CFC Singapore</span>
+              <span class="footer-sub">Couples for Christ</span>
+            </div>
+          </div>
+          <p>Building God's Kingdom through faithful, loving families — one household at a time.</p>
+          <div class="footer-verse">
+            <em>"As for me and my household,<br/>we will serve the LORD."</em>
+            <cite>Joshua 24:15</cite>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Movement</h5>
+          <a href="home/">About CFC</a>
+          <a href="home/cfc-vision/">Our Vision</a>
+          <a href="home/cfc-sg-organizational-structure/">Leadership</a>
+          <a href="home/cfc-mission/">CFC Mission</a>
+        </div>
+        <div class="footer-col">
+          <h5>Ministries</h5>
+          <a href="evangelization-and-clp/">CFC Couples</a>
+          <a href="chapter/family-ministries/yfc/">CFC Youth</a>
+          <a href="chapter/family-ministries/kfc/">CFC Kids</a>
+          <a href="chapter/family-ministries/sfc/">CFC Singles</a>
+          <a href="chapter/family-ministries/senior-couples-program/">CFC Seniors</a>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <a href="home/annual-activities/">Events Calendar</a>
+          <a href="evangelization-and-clp/christian-life-program/">Join a CLP</a>
+          <a href="responsibility/">Volunteer</a>
+          <a href="mission-centre/">Mission Centre</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-base">
+      <div class="container footer-base-inner">
+        <p>&copy; 2026 Couples for Christ Singapore · Registered with the Registry of Societies</p>
+        <p>Made with ♥ for families</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/main.js"></script>
 </body>
 </html>
